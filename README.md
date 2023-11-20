@@ -4,13 +4,13 @@
 - Dayanada Sagar College of Engineering (June 2020) | Bachelor of Engineering, Electrical and Electronics Engineering 				 	        		
 
 ## Skills
-**Programming:** Python (Libraries: Numpy, Pandas, Matplotlib, Scikit Learn, PySpark, NLTK), SQL, R
-**Languages:** HTML, CSS
-**Database:** MySQL, Oracle SQL, Quickbase
-**Data Analytics & Visualization Tools:** Tableau, MS Excel, Apache Airflow
-**Cloud Computing Platforms:** Google Cloud Platform
-**Automation Testing Framework and Tools:** Selenium WebDriver, TestNG, Pytest, Postman
-**Soft Skills:** Attention to detail, strong communication and organizational skill, ability to work independently and in team-based environment.
+- **Programming:** Python (Libraries: Numpy, Pandas, Matplotlib, Scikit Learn, PySpark, NLTK), SQL, R
+- **Languages:** HTML, CSS
+- **Database:** MySQL, Oracle SQL, Quickbase
+- **Data Analytics & Visualization Tools:** Tableau, MS Excel, Apache Airflow
+- **Cloud Computing Platforms:** Google Cloud Platform
+- **Automation Testing Framework and Tools:** Selenium WebDriver, TestNG, Pytest, Postman
+- **Soft Skills:** Attention to detail, strong communication and organizational skill, ability to work independently and in team-based environment.
 
 ## Projects
 ### Stock Trading Label Predictions
