@@ -1,7 +1,7 @@
 ## Education
-- Boston University (January 2024) | Master of Science, Computer Information Systems
+- Boston University (January 2024)                                   | Master of Science, Computer Information Systems
                  		
-- Dayanada Sagar College of Engineering (June 2020) | Bachelor of Engineering, Electrical and Electronics Engineering 				 	        		
+- Dayanada Sagar College of Engineering (June 2020)                  | Bachelor of Engineering, Electrical and Electronics Engineering 				 	        		
 
 ## Skills
 - **Programming:** Python (Libraries: Numpy, Pandas, Matplotlib, Scikit Learn, PySpark, NLTK), SQL, R
