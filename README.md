@@ -15,7 +15,7 @@
 ## Projects
 ### Stock Trading Label Predictions
 
-Applied advanced data pre-processing and cleaning methods to refine historical data, enabling optimization of trading strategies. Leveraged machine learning algorithms, including logistic regression, decision trees and Random Forest to predict stock trading labels ("Buy" or "Sell").
+Applied advanced data pre-processing and cleaning methods to refine historical data, enabling optimization of trading strategies. Leveraged machine learning algorithms, including logistic regression, decision trees and Random Forest to predict stock trading labels ("Buy" or "Sell"), achieving an outstanding 88% accuracy—the highest among the models utilized.
 
 ### Database System Design and Implementation for Roommate Finder Platform
 
@@ -23,7 +23,7 @@ Designed and implemented a database system using MySQL for a roommate finder pla
 
 ### Sales Insight Dashboard
 
-Developed a dynamic sales insight dashboard using Tableau integrating MySQL data, and performing ETL and data cleaning for accurate, visually impactful data representation for strategic decision making.
+Developed a dynamic sales insight dashboard using Tableau integrating MySQL data, and performing ETL and data cleaning for accurate, visually impactful data representation for strategic decision making, resulting in a 10% cost saving.
 
 ## Work Experience
 **Graduate Teaching Assistant @ Boston University (_September 2023 - Present_)**
