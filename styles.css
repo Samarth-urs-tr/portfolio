@@ -1,0 +1,433 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+
+.header {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 35px 12% 35px 8%;
+    background: rgba(234, 234, 234, 0.8);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+}
+
+.logo {
+    font-size: 25px;
+    color: rgb(105, 179, 162);
+    font-weight: 600;
+    transition: 0.3s ease;
+    
+}
+
+.logo:hover {
+    color: rgb(105, 179, 162);
+    text-shadow: 0 0 25px rgb(105, 179, 162), 0 0 50px rgb(105, 179, 162);
+    transform: scale(1.1);
+}
+
+.navbar a{
+    font-size: 18px;
+    color: black;
+    font-weight: 500 ;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+
+.navbar a:hover,
+.navbar a:active
+{
+    color: rgb(105, 179, 162);
+    border-bottom: 3px solid rgb(105, 179, 162);
+
+}
+
+.contact {
+    padding: 10px 28px;
+    color: black;
+    background-color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.contact:hover{
+    background-color: rgb(105, 179, 162);
+    box-shadow: 0 0 25px rgb(105, 179, 162);
+    color: white;
+}
+
+.home {
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(241,241,241);
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 25px 12% 0 8%;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.home-content {
+    max-width: 800px;
+    
+}
+
+.home-content h3{
+    font-size: 22px;
+    margin-bottom: 0px;
+    color: black;
+    
+}
+
+.home-content h1 {
+    font-size: 42px;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 20px;
+    
+}
+
+.home-content p{
+    font-size: 18px;
+    margin: 25px 0 30px;
+    justify-content:flex-start;
+}
+
+.img-box {
+    margin-top: 150px; 
+    margin-left: 40px;
+    margin-bottom: 10px;
+    
+}
+.img-box img {
+    border-radius: 0%;
+    width: 280px;
+    height: 350px;
+    margin-left: 2%;
+    margin-bottom: auto;
+
+}
+
+.social-icons {
+    margin-top: 20px;
+    display: flex; /* Use flexbox */
+    justify-content: left; /* Align icons horizontally to the center */
+}
+
+.social-icons a {
+    margin: 0 10px; /* Add margin around icons */
+}
+
+.social-icons a i {
+    font-size: 44px; /* Adjust icon size as needed */
+    
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.scroll-down a {
+    color: #010000; /* Icon color */
+    font-size: 24px; /* Icon size */
+}
+
+.skills {
+    width: 100%;
+    padding: 92px 12% 10px 8%;
+    display: column;
+    justify-content: space-between;
+    background: rgba(234, 234, 234, 0.8);
+    
+}
+
+.skill-column {
+    flex: 1;
+    margin-right: 20px;
+    border: 2px solid #ccc; /* Add border */
+    padding: 20px; /* Add padding */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    background-color: #f9f9f9; /* Add background color */
+}
+
+
+.skill-column:hover {
+    box-shadow: 0 0 25px rgb(105, 179, 162);
+    background-color: rgba(90, 126, 247, 0.3);
+    color: black;
+}
+
+.skill-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skill-column ul li {
+    font-size: 20px;
+    font-family: roboto slab;
+    font-weight:500;
+    color: black;
+    margin-bottom: 10px;
+    line-height: 1;
+}
+
+.skill-column ul li::before {
+    content: "•";
+    margin-right: 10px;
+    color: black;
+}
+
+
+
+.background-icon1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px; /* Adjust icon size */
+    width: 100%;
+    height: 100%;
+    color: rgba(62, 179, 62, 0.3); /* Adjust icon color and transparency */
+}
+
+.background-icon i:hover {
+    color: rgba(62, 179, 62, 0.5);
+    
+}
+.background-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200px; /* Adjust icon size */
+    color: rgba(62, 179, 62, 0.15); /* Adjust icon color and transparency */
+}
+
+.skills-heading h2{
+    font-size: 40px; /* Adjust the font size as needed */
+    font-weight: 700; /* Adjust the font weight as needed */
+    font-family:Arial;/* Specify the desired font family */
+    padding-top: 10px; /* Adjust the padding as needed */
+    padding-bottom: 10px;
+    left:50%;
+    text-align: center; /* Optionally, center align the heading */
+    color: black;
+    margin-top: 2px;
+}
+
+
+.background-icon box-icon {
+    font-size: 100px; /* Adjust icon size */
+    
+}
+
+.content h2 {
+    font-size: 25px;
+    font-weight: 700;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.projects {
+    background: rgba(234, 234, 234, 0.8);
+    padding: 92px 12% 10px 8%;
+    display: column;
+}
+
+.project-column {
+    flex: 1;
+    margin-right: 20px;
+    border: 2px solid #ccc; /* Add border */
+    padding: 20px; /* Add padding */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    background-color: #f9f9f9; /* Add background color */
+    margin-bottom: -2px;
+    width: 200px;
+    
+}
+
+.project-column img {
+    margin-bottom: 20px; /* Adjust the margin bottom as needed */
+    margin: 0 auto;
+    display: block;
+    padding-top: 10px;
+    max-width: 100%;
+    height:auto;
+}
+
+.project-column p {
+    font-size: 20px; /* Adjust the font size as needed */
+    font-weight: 500; /* Adjust the font weight as needed */
+    font-family:Merriweather;/* Specify the desired font family */
+    padding-top: 20px; /* Adjust the padding as needed */
+    padding-bottom: 10px;
+    left:50%;
+    text-align: left; /* Optionally, center align the heading */
+    color: black;
+    justify-content: left;
+
+}
+
+.project-column .btn {
+    display: flex;
+    width: 120px; /* Set a specific width for the button */
+    margin: 0 auto; /* Center align the button */
+    border: 1px solid rgb(105, 179, 162);; /* Add a border */
+    padding: 10px 20px; /* Add padding to the button */
+    text-decoration: none; /* Remove default link underline */
+    color: rgb(105, 179, 162);; /* Set button text color */
+    text-align: center; /* Center align the button text */
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.project-column h2 {
+    font-family: Source Sans Pro;
+}
+
+.projects-heading h2{
+    font-size: 40px; /* Adjust the font size as needed */
+    font-weight: 700; /* Adjust the font weight as needed */
+    font-family:Arial;/* Specify the desired font family */
+    padding-top: 20px; /* Adjust the padding as needed */
+    padding-bottom: 10px;
+    left:50%;
+    text-align: center; /* Optionally, center align the heading */
+    color: black;
+}
+
+.project-content h2 {
+    font-size: 25px;
+    font-weight: 700;
+    align-items: left;
+    text-align: center;
+   
+    
+}
+
+.project-column:hover {
+    box-shadow: 0 0 25px rgb(105, 179, 162);
+    cursor: pointer;
+    background-color: rgba(90, 126, 247, 0.3);
+}
+
+.project-column .btn:hover {
+    background: rgb(105, 179, 162);
+    color: white;
+
+}
+
+.contact-form {
+    background: rgba(234, 234, 234, 0.8);
+    padding: 92px 12% 10px 8%;
+    display: column;
+}
+
+.contact-form-heading h2{
+    font-size: 40px; /* Adjust the font size as needed */
+    font-weight: 700; /* Adjust the font weight as needed */
+    font-family:Arial;/* Specify the desired font family */
+    padding-top: 20px; /* Adjust the padding as needed */
+    padding-bottom: 10px;
+    left:50%;
+    text-align: center; /* Optionally, center align the heading */
+    color: black;
+}
+
+.contact-form form {
+    max-width: 50em;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.contact-form form .input-box {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    text-align: left;
+    align-items: flex-start;
+}
+
+.contact-form form .input-box input[type="text"],
+.contact-form form .input-box input[type="email"],
+.contact-form form .input-box textarea {
+    width: 50%;
+    height: 2%;
+    padding: 1.5em;
+    font-size: 16px; /* Adjust the font size as needed */
+    color: black;
+    background: rgb(241, 241, 241);
+    border-radius: 0.8rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1px;
+    margin-right: auto;
+    resize: none;
+    border: 1px solid black;
+    box-sizing: border-box; /* Ensure the padding and border are included in the width */
+    display: inline-block;
+}
+
+.contact-form form .input-box label {
+    display: block; /* Ensure labels are displayed as block elements */
+    margin-top: 1rem;
+    text-align: center;
+    align-items: left;
+    width: 29%;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    
+}
+
+.contact-form form .btn-1 {
+    display: block; /* Change button display to block */
+    margin: 5px auto; /* Center the button horizontally */
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+
+.about {
+    background: rgba(234, 234, 234, 0.6);
+    padding: 92px 12% 10px 8%;
+    display: column;
+}
+
+.about-heading h2{
+    font-size: 40px; /* Adjust the font size as needed */
+    font-weight: 700; /* Adjust the font weight as needed */
+    font-family:Arial;/* Specify the desired font family */
+    padding-top: 20px; /* Adjust the padding as needed */
+    padding-bottom: 10px;
+    left:50%;
+    text-align: center; /* Optionally, center align the heading */
+    color: black;
+}
